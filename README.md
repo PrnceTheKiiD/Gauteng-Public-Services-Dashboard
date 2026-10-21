@@ -39,6 +39,7 @@ The primary objectives of this analysis and dashboard suite are to:
 
 ## 📊 Dashboard & Key Analytical Insights
 
+![](assets/DASHBOARD.jpg)
 ![](assets/DASHBOARD.png)
 
 An executive-grade Microsoft Excel Dashboard was built to monitor core operational KPIs. Below is a summary of the key insights supported by precise dataset metrics:
