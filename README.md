@@ -48,27 +48,19 @@ An executive-grade Microsoft Excel Dashboard was built to monitor core operation
 * **Top Service Requests:** **SASSA Grant Applications** represent the highest individual service volume at **208 requests**, followed by **Home Affairs ID Applications** (**143 requests**) and **SASSA Grant Status Enquiries** (**110 requests**).
 * **Branch Activity Hotspots:** High-density transaction clusters were recorded at **Emfuleni Municipal Office** (**167 records**), **Vereeniging Home Affairs** (**153 records**), and **Vanderbijlpark Home Affairs** (**131 records**).
 
-![](assets/TOTAL_RECORDS.pngg)
-
 ### 2. Services Rendered vs. Applications Processed
 * **Fulfillment Rate:** Out of 1,079 total logs, **265 records** are marked as *Complete* and **115 records** as *Approved*, demonstrating strong primary throughput across service channels.
 * **Friction & Verification Delays:** Operational friction is highlighted by **108 records** awaiting Home Affairs confirmation, **108 rejected documents**, **106 cases under review**, and **102 records pending verification**. Furthermore, **88 incomplete ID copies** and **87 missing proof of residence** logs point to primary document intake bottlenecks.
 
-![](assets/DOC_STATUS.pngg)
-
 ### 3. Processing Status & Queue Dynamics
 * **Case Resolution Breakdown:** Tracking across processing statuses reveals **313 captured** logs, **117 re-opened cases**, **114 closed cases**, **104 escalated cases**, **103 fully resolved cases**, **102 awaiting documents**, and **98 pending cases**.
 * **Operational Resilience:** Frontline officers utilized queue ticket tracking (`Q001`–`Q300+`) and logged system-offline workarounds in notes to ensure continuity during network outages.
-
-![](assets/APPLICATION_STATUS.pngg)
 
 ### 4. Top-Performing Data Capturers
 * **Home Affairs Top Performer:** **Deon Mahlangu** led Home Affairs output with **9 recorded transactions**, supported by **Werner Khumalo** and **Deon Radebe** (**8 transactions** each).
 * **Municipal Offices Top Performer:** **Andries Mahlangu**, **Deon Sithole**, and **Werner Mahlangu** tied as top contributors with **7 transactions** each.
 * **Clinics Top Performer:** **Marius Khumalo** and **Refilwe Swart** achieved top clinic logging output with **6 transactions** each.
 * **SASSA Top Performer:** **Refilwe Swart** and **Deon Khumalo** led SASSA processing performance with **9 transactions** each, closely followed by **Palesa Nel** (**8 transactions**).
-
-![](assets/DATA_CAPTURER.pngg)
 
 ---
 
@@ -130,7 +122,7 @@ To ensure high data integrity prior to dashboard visualization, a rigorous clean
 
 ## 💡 Recommendations & Strategic Improvements
 
-1. **Targeted Resource Allocation:** Deploy additional data capturers and administrative support staff to high-demand Gauteng hubs—specifically **Emfuleni Municipal Office** (**167 records**) and **Vereeniging Home Affairs** (**153 records**)—during peak grant payout and document renewal cycles.
+1. **Targeted Resource Allocation:** Deploy additional data capturers and administrative support staff to high-demand Gauteng hubs—specifically **Emfuleni Municipal Office** (**167 records**) and **Vereeniging Home Affairs** (**153 records**) — - during peak grant payout and document renewal cycles.
 2. **Performance Benchmarking & Incentives:** Formalize recognition programs for top-performing data capturers across departments (such as **Deon Mahlangu**, **Refilwe Swart**, and **Andries Mahlangu**), establishing peer-learning workshops to share best practices in data entry speed and accuracy.
 3. **Workflow Streamlining:** Digitize and streamline verification workflows for high-volume application types (**208 Grant Applications** and **143 ID Applications**) to reduce citizen waiting times and lower the **102 pending verification** backlogs.
 4. **Enhanced System Reliability Logging:** Implement standardized digital fallback protocols for periods when municipal systems experience downtime, ensuring seamless offline capture and reconciliation.
