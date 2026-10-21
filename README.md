@@ -48,19 +48,19 @@ An executive-grade Microsoft Excel Dashboard was built to monitor core operation
 * **Top Service Requests:** **SASSA Grant Applications** represent the highest individual service volume at **208 requests**, followed by **Home Affairs ID Applications** (**143 requests**) and **SASSA Grant Status Enquiries** (**110 requests**).
 * **Branch Activity Hotspots:** High-density transaction clusters were recorded at **Emfuleni Municipal Office** (**167 records**), **Vereeniging Home Affairs** (**153 records**), and **Vanderbijlpark Home Affairs** (**131 records**).
 
-![](Assets/TOTAL_RECORDS.png)
+![](assets/TOTAL_RECORDS.png)
 
 ### 2. Services Rendered vs. Applications Processed
 * **Fulfillment Rate:** Out of 1,079 total logs, **265 records** are marked as *Complete* and **115 records** as *Approved*, demonstrating strong primary throughput across service channels.
 * **Friction & Verification Delays:** Operational friction is highlighted by **108 records** awaiting Home Affairs confirmation, **108 rejected documents**, **106 cases under review**, and **102 records pending verification**. Furthermore, **88 incomplete ID copies** and **87 missing proof of residence** logs point to primary document intake bottlenecks.
 
-![](Assets/APPLICATION_STATUS.png)
+![](assets/APPLICATION_STATUS.png)
 
 ### 3. Processing Status & Queue Dynamics
 * **Case Resolution Breakdown:** Tracking across processing statuses reveals **313 captured** logs, **117 re-opened cases**, **114 closed cases**, **104 escalated cases**, **103 fully resolved cases**, **102 awaiting documents**, and **98 pending cases**.
 * **Operational Resilience:** Frontline officers utilized queue ticket tracking (`Q001`–`Q300+`) and logged system-offline workarounds in notes to ensure continuity during network outages.
 
-![](Assets/DOC_STATUS.png)
+![](assets/DOC_STATUS.png)
 
 ### 4. Top-Performing Data Capturers
 * **Home Affairs Top Performer:** **Deon Mahlangu** led Home Affairs output with **9 recorded transactions**, supported by **Werner Khumalo** and **Deon Radebe** (**8 transactions** each).
@@ -68,7 +68,7 @@ An executive-grade Microsoft Excel Dashboard was built to monitor core operation
 * **Clinics Top Performer:** **Marius Khumalo** and **Refilwe Swart** achieved top clinic logging output with **6 transactions** each.
 * **SASSA Top Performer:** **Refilwe Swart** and **Deon Khumalo** led SASSA processing performance with **9 transactions** each, closely followed by **Palesa Nel** (**8 transactions**).
 
-![](Assets/DATA_CAPTURER.png)
+![](assets/DATA_CAPTURER.png)
 
 ---
 
