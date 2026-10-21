@@ -54,13 +54,13 @@ An executive-grade Microsoft Excel Dashboard was built to monitor core operation
 * **Fulfillment Rate:** Out of 1,079 total logs, **265 records** are marked as *Complete* and **115 records** as *Approved*, demonstrating strong primary throughput across service channels.
 * **Friction & Verification Delays:** Operational friction is highlighted by **108 records** awaiting Home Affairs confirmation, **108 rejected documents**, **106 cases under review**, and **102 records pending verification**. Furthermore, **88 incomplete ID copies** and **87 missing proof of residence** logs point to primary document intake bottlenecks.
 
-![](assets/APPLICATION_STATUS.png)
+![](assets/DOC_STATUS.png)
 
 ### 3. Processing Status & Queue Dynamics
 * **Case Resolution Breakdown:** Tracking across processing statuses reveals **313 captured** logs, **117 re-opened cases**, **114 closed cases**, **104 escalated cases**, **103 fully resolved cases**, **102 awaiting documents**, and **98 pending cases**.
 * **Operational Resilience:** Frontline officers utilized queue ticket tracking (`Q001`–`Q300+`) and logged system-offline workarounds in notes to ensure continuity during network outages.
 
-![](assets/DOC_STATUS.png)
+![](assets/APPLICATION_STATUS.png)
 
 ### 4. Top-Performing Data Capturers
 * **Home Affairs Top Performer:** **Deon Mahlangu** led Home Affairs output with **9 recorded transactions**, supported by **Werner Khumalo** and **Deon Radebe** (**8 transactions** each).
