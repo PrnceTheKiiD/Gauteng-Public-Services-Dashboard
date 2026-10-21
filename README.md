@@ -39,6 +39,8 @@ The primary objectives of this analysis and dashboard suite are to:
 
 ## 📊 Dashboard & Key Analytical Insights
 
+![](Assets/Picture.png)
+
 An executive-grade Microsoft Excel Dashboard was built to monitor core operational KPIs. Below is a summary of the key insights supported by precise dataset metrics:
 
 ### 1. Departmental Transaction Volumes & Branch Distribution
@@ -46,13 +48,19 @@ An executive-grade Microsoft Excel Dashboard was built to monitor core operation
 * **Top Service Requests:** **SASSA Grant Applications** represent the highest individual service volume at **208 requests**, followed by **Home Affairs ID Applications** (**143 requests**) and **SASSA Grant Status Enquiries** (**110 requests**).
 * **Branch Activity Hotspots:** High-density transaction clusters were recorded at **Emfuleni Municipal Office** (**167 records**), **Vereeniging Home Affairs** (**153 records**), and **Vanderbijlpark Home Affairs** (**131 records**).
 
+![](Assets/Picture.png)
+
 ### 2. Services Rendered vs. Applications Processed
 * **Fulfillment Rate:** Out of 1,079 total logs, **265 records** are marked as *Complete* and **115 records** as *Approved*, demonstrating strong primary throughput across service channels.
 * **Friction & Verification Delays:** Operational friction is highlighted by **108 records** awaiting Home Affairs confirmation, **108 rejected documents**, **106 cases under review**, and **102 records pending verification**. Furthermore, **88 incomplete ID copies** and **87 missing proof of residence** logs point to primary document intake bottlenecks.
 
+![](Assets/Picture.png)
+
 ### 3. Processing Status & Queue Dynamics
 * **Case Resolution Breakdown:** Tracking across processing statuses reveals **313 captured** logs, **117 re-opened cases**, **114 closed cases**, **104 escalated cases**, **103 fully resolved cases**, **102 awaiting documents**, and **98 pending cases**.
 * **Operational Resilience:** Frontline officers utilized queue ticket tracking (`Q001`–`Q300+`) and logged system-offline workarounds in notes to ensure continuity during network outages.
+
+![](Assets/Picture.png)
 
 ### 4. Top-Performing Data Capturers
 * **Home Affairs Top Performer:** **Deon Mahlangu** led Home Affairs output with **9 recorded transactions**, supported by **Werner Khumalo** and **Deon Radebe** (**8 transactions** each).
@@ -60,9 +68,13 @@ An executive-grade Microsoft Excel Dashboard was built to monitor core operation
 * **Clinics Top Performer:** **Marius Khumalo** and **Refilwe Swart** achieved top clinic logging output with **6 transactions** each.
 * **SASSA Top Performer:** **Refilwe Swart** and **Deon Khumalo** led SASSA processing performance with **9 transactions** each, closely followed by **Palesa Nel** (**8 transactions**).
 
+![](Assets/Picture.png)
+
 ---
 
 ## 🗂️ Dataset Structure & Schema
+
+![](Assets/Picture.png)
 
 The cleaned dataset consists of structured records tracking individual citizen interactions across the following attributes:
 
@@ -85,6 +97,8 @@ The cleaned dataset consists of structured records tracking individual citizen i
 | **Follow-Up Date** | Date | Scheduled follow-up or review timestamp |
 | **Notes** | Text | Operational remarks, exception logs, and system offline notes |
 
+![](Assets/Picture.png)
+
 ---
 
 ## 🧹 Data Cleaning & Preparation Pipeline
@@ -95,6 +109,7 @@ To ensure high data integrity prior to dashboard visualization, a rigorous clean
 * **Missing Value Management:** Handled missing departmental tags, incomplete citizen IDs, and unassigned fields through systematic imputation and flagging.
 * **Date & Numeric Formatting:** Standardized date serial numbers into consistent `YYYY-MM-DD` formatting and validated integer/decimal types for processing metrics.
 * **Deduplication:** Filtered out duplicate transaction logs and anomalous records to ensure accurate aggregate counts across the **1,079 total records**.
+![](Assets/Picture.png)
 
 ---
 
