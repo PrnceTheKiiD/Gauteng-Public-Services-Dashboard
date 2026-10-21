@@ -114,6 +114,17 @@ To ensure high data integrity prior to dashboard visualization, a rigorous clean
 ![](assets/Clean3.png)
 ![](assets/Clean4.png)
 ![](assets/Clean5.png)
+![](assets/Clean6.png)
+![](assets/Clean7.png)
+![](assets/Clean8.png)
+![](assets/Clean9.png)
+![](assets/Clean10.png)
+![](assets/Clean11.png)
+![](assets/Clean12.png)
+![](assets/Clean13.png)
+![](assets/Clean14.png)
+![](assets/Clean15.png)
+![](assets/Clean16.png)
 
 ---
 
